@@ -1,10 +1,14 @@
 {% extends "base.html" %}
+{% load static %}
+
+{% block css_files %}
+    <link rel="stylesheet" href="{% static 'challenges/challenges.css' %}">
+{% endblock css_files %}
 
    {% block page_title %} All Challenges{% endblock %}
 
     {% block content %}
     {% include "challenges/includes/header.html" %}
-    <h1>All Challenges:</h1>
     <ul>    
         {% for month in months%}
             <li>
