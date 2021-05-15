@@ -2,12 +2,12 @@
 {% load static %}
 
 {% block css_files %}
-    <link rel="stylesheet" href="{% static 'challenges/challenges.css' %}">
+    <link rel="stylesheet" href="{% static 'challenges/challenge.css' %}">
 {% endblock css_files %}
 
 {% block page_title %}About{% endblock %}
 
 {% block content %}
 <h2>This is an about page</h2>
-<h3>{{ data }}</h3>
+<p>{{ data }}</p>
 {% endblock  %}
