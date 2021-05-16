@@ -1,3 +1,3 @@
 # Monthly Challenges
 
-A simple dajngo project.
+A simple django project.
